@@ -11,8 +11,12 @@ $desktop: 768px;
 $large: 1200px;
 
 @media (min-width: $mobile) {
+
+   .container {
+       max-width: 92%;
+   } 
   .card {
-    max-height: 200px;
+    max-height: 250px;
   }
   .footer__text {
     font-size: 14px;
